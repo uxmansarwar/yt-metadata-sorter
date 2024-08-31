@@ -1,0 +1,75 @@
+{
+	"workbench.iconTheme": "vscode-icons",
+	"files.autoSave": "onWindowChange",
+	"php.validate.executablePath": "C:/xampp/php/php.exe",
+	"editor.fontSize": 16,
+	"workbench.editor.wrapTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	// === General Editor Settings ===
+	// Use tabs instead of spaces for indentation
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4, // You can adjust the tab size as needed
+	"editor.detectIndentation": false,
+	// === HTML Settings ===
+	"[html]": {
+		// "editor.defaultFormatter": "vscode.html-language-features",
+		// // Prevent automatic wrapping of HTML attributes
+		// "html.format.wrapAttributes": "preserve"
+		"editor.defaultFormatter": "vscode.html-language-features",
+		// Wrap lengthy lines and align HTML attributes, wrapping only the last attribute
+		// "html.format.wrapAttributes": "force-expand-multiline",
+		// "html.format.wrapLineLength": 4000
+	},
+	// === CSS Settings ===
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features",
+		// CSS typically doesn't wrap attributes, but ensure no wrapping occurs
+		"css.format.wrapLineLength": 0
+	},
+	// === JavaScript Settings ===
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		// Prevent automatic wrapping in JavaScript
+		"javascript.format.wrapLineLength": 0
+	},
+	// === Blade Template Settings ===
+	"[blade]": {
+		"editor.defaultFormatter": "michele-bartoli.blade-formatter",
+		// Prevent automatic wrapping of Blade attributes
+		"blade.format.wrapAttributes": "preserve"
+	},
+	// === PHP Settings ===
+	"[php]": {
+		"editor.defaultFormatter": "felixfbecker.php-intellisense",
+		// Prevent automatic wrapping in PHP
+		"php.format.wrapLineLength": 0
+	},
+	// === TPL Template Settings ===
+	"[tpl]": {
+		"editor.defaultFormatter": "some-extension.tpl-formatter", // Replace with your TPL formatter extension
+		// Prevent automatic wrapping of TPL attributes
+		"tpl.format.wrapAttributes": "preserve"
+	},
+	// === Optional: Disable Format on Save (if undesired) ===
+	// If you prefer to manually format your code, uncomment the lines below
+	// "editor.formatOnSave": false,
+	// "[html]": {
+	//     "editor.formatOnSave": false
+	// },
+	// "[css]": {
+	//     "editor.formatOnSave": false
+	// },
+	// "[javascript]": {
+	//     "editor.formatOnSave": false
+	// },
+	// "[blade]": {
+	//     "editor.formatOnSave": false
+	// },
+	// "[php]": {
+	//     "editor.formatOnSave": false
+	// },
+	// "[tpl]": {
+	//     "editor.formatOnSave": false
+	// }
+}

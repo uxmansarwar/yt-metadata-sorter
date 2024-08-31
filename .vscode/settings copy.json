@@ -1,0 +1,33 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "onWindowChange",
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "editor.fontSize": 16,
+    "workbench.editor.wrapTabs": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "prettier.useTabs": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "[html]": {
+        "editor.wordWrap": "off",
+        "html.format.wrapAttributes": "force-aligned"
+    },
+    "[css]": {
+        "editor.wordWrap": "off"
+    },
+    "[javascript]": {
+        "editor.wordWrap": "off"
+    },
+    "[php]": {
+        "editor.wordWrap": "off"
+    },
+    "[blade]": {
+        "editor.wordWrap": "off"
+    },
+    "[tpl]": {
+        "editor.wordWrap": "off"
+    }
+}
